@@ -1,0 +1,6 @@
+img + em {
+    font-style: normal;
+    display: inherit;
+    text-align: center;
+    font-size: 90%;
+}

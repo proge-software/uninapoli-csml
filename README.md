@@ -1,6 +1,6 @@
 # Lectures @ UniNapoli
 
-In questo repository è contenuta la documentazione prodotta per le lezioni erogate all'Università degli Studi di Napoli Federico II nel periodo che va da Aprile a Marzo 2020.
+In questo repository è contenuta la documentazione prodotta per le lezioni erogate all'Università degli Studi di Napoli Federico II nel periodo che va da Aprile a Maggio 2020.
 
 ## Agenda
 
