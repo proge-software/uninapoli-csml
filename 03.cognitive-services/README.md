@@ -17,5 +17,12 @@
    - Language APIs
    - Search APIs
    - Decision APIs
-4. Demo
-5. Q&A
+4. Vision APIs
+   - Computer Vision
+   - Custom Vision Service
+   - Face
+   - Form Recognizer
+   - Ink Recognizer
+   - Video Indexer
+5. Demo
+6. Q&A
