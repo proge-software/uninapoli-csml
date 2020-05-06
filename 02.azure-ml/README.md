@@ -33,9 +33,10 @@
        - Compute Clusters
        - Inference Clusters
        - Attached Compute
+     - Storage
      - Notebooks
      - Work with Computes
-       - Web 
+       - JupyterLab 
        - Command Line
 4. [Demo](04.demo.md) :clock4: **16:00**
    - Setup Azure ML Studio
