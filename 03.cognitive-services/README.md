@@ -29,7 +29,7 @@
 5. Language :clock330: **15:30**
    - [x] **Text Analytics** (v2.1)
    - LUIS (v2)
-   - [ ] **Translator Text** (v3)
+   - [x] **Translator Text** (v3)
    - Demo 
 6. Decision 
    - APIs
