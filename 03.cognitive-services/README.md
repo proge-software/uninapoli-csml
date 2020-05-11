@@ -19,22 +19,22 @@
    - **Decision APIs**
 4. Vision :clock3: **14:45**
    - APIs
-      - [x] **Face** (v1)
-      - [x] **Computer Vision** (v2.1)
+      - [x] **Face**
+      - [x] **Computer Vision**
       - Custom Vision Service
-      - [ ] **Form Recognizer** (https://docs.microsoft.com/en-us/azure/cognitive-services/form-recognizer/quickstarts/curl-receipts)
+      - [x] **Form Recognizer**
       - Ink Recognizer
       - Video Indexer
    - Demo
 5. Language :clock330: **15:30**
-   - [x] **Text Analytics** (v2.1)
+   - [x] **Text Analytics**
    - LUIS (v2)
-   - [x] **Translator Text** (v3)
+   - [x] **Translator Text**
    - Demo 
 6. Decision 
    - APIs
      - Anomaly Detector
-     - [x] **Content Moderator** (v1)
+     - [x] **Content Moderator**
      - Personalizer
    - Demo
 7.  Q&A
