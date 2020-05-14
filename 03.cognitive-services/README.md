@@ -4,37 +4,77 @@
 
 ## Agenda
 
-1. Presentation :clock2: **14:00**
+1. Presentation :clock230: **14:30**
    - Who Am I
    - Who Is Proge-Software
-2. Introduction
+1. Introduction
    - Azure
+     - Core Concepts
+       - Resource Group
+       - Resource
+       - Tags
+     - CLI
+   - REST Architecture
+     - REST over HTTP
+       - Maturity Model
+       - Hypertext as the Engine of Application State (HATEOAS)
    - Azure Cognitive Services
-3. Azure Cognitive Services :clock230: **14:30**
+1. Azure Cognitive Services :clock3: **15:00**
    - What are Azure Cognitive Services
+     - SDKs and API Specification
    - **Vision APIs**
    - Speech APIs
    - **Language APIs**
    - Search APIs
    - **Decision APIs**
-4. Vision :clock3: **14:45**
-   - APIs
-      - [x] **Face**
-      - [x] **Computer Vision**
-      - Custom Vision Service
-      - [x] **Form Recognizer**
-      - Ink Recognizer
-      - Video Indexer
+1. Telegram Bot with Go
+   - Go
+     - Tour of Go
+   - Telebot
+   - Azure SDK for Go
+     - Other Azure Go Packages
    - Demo
-5. Language :clock330: **15:30**
-   - [x] **Text Analytics**
-   - LUIS (v2)
-   - [x] **Translator Text**
-   - Demo 
-6. Decision 
+1. Vision :clock330: **15:30**
+   - APIs
+     - **Face**
+       - Face Detection
+       - Face Verification
+       - Find similar faces
+       - Face Grouping
+       - Person identification
+       - Containers
+     - **Computer Vision**
+       - Analyze Images
+       - Extract text from images
+       - Moderate content in images
+       - Use containers
+     - Custom Vision Service
+     - **Form Recognizer (preview)**
+     - Ink Recognizer (preview)
+     - Video Indexer
+   - Demo
+1. Language :clock4: **16:00**
+   - APIs
+     - **Text Analytics**
+       - Sentiment Analysis
+       - Key Phrase Extraction
+       - Language Detection
+       - Named Entity Recognition
+     - Language Understanding (LUIS)
+     - **Translator Text**
+   - Demo
+1. Decision
    - APIs
      - Anomaly Detector
-     - [x] **Content Moderator**
+       - Demo
+       - Notebook
+     - **Content Moderator**
+       - Moderation APIs
+       - Review APIs
+         - Review tool
      - Personalizer
+       - How does Personalizer select the best content item?
+       - When to call Personalizer
+       - How to design and implement Personalizer for your client application
    - Demo
-7.  Q&A
+1.  Q&A :clock430: **16:30**

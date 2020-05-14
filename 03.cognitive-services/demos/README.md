@@ -1,4 +1,4 @@
-# Why So Serious Bot
+# Cognitive Services Demos with Telegram Bots
 
 It is a simple set of toy-bot organized in a monorepo for Telegram written in Go that makes use of Azure Cognitive Services.
 
