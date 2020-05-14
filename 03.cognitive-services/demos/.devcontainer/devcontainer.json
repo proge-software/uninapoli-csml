@@ -1,0 +1,31 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.106.0/containers/go
+{
+	"name": "wss-bot",
+	"dockerComposeFile": ["docker-compose.yml", "docker-compose.override.yml"],
+	"service": "devenv",
+	"workspaceFolder": "/workspace",
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/zsh",
+		"go.gopath": "/go"
+	},
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-vscode.go",
+		"ms-azuretools.vscode-docker",
+		"premparihar.gotestexplorer",
+		"42crunch.vscode-openapi",
+		"ms-kubernetes-tools.vscode-kubernetes-tools",
+		"ipedrazas.kubernetes-snippets",
+		"mkloubert.vscode-kanban",
+		"fcrespo82.markdown-table-formatter",
+		"mervin.markdown-formatter"
+	],
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "go mod verify && go mod download",
+	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode"
+}
