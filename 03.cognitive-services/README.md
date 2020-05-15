@@ -77,4 +77,4 @@
        - When to call Personalizer
        - How to design and implement Personalizer for your client application
    - Demo
-1.  Q&A :clock430: **16:30**
+1. Q&A :clock430: **16:30**
