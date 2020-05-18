@@ -18,6 +18,7 @@ import (
 )
 
 func main() {
+	log.Println("Configuring Moderate bot")
 	loadEnvs() // load the env vars from .env file
 
 	conf, err := getConfigurations()
@@ -30,6 +31,7 @@ func main() {
 		log.Printf("can not instantiate bot: %v", err)
 	}
 
+	log.Println("Starting Moderate bot")
 	// start bot
 	fbot.Start()
 }

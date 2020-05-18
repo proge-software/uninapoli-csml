@@ -21,7 +21,7 @@ func main() {
 		log.Printf("can not instantiate bot: %v", err)
 	}
 
-	log.Println("Simple telegram bot started")
+	log.Println("Simple Telegram bot configured")
 
 	// start bot
 	fbot.Start()

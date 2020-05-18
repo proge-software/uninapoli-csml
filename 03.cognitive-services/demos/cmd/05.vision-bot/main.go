@@ -17,6 +17,8 @@ import (
 const AppEnvKey = "WSSBOT_ENV"
 
 func main() {
+	log.Println("Starting Vision telegram bot")
+
 	envext.LoadDotenvs(AppEnvKey) // load the env vars from .env file
 
 	conf, err := getConfigurations()
@@ -28,6 +30,8 @@ func main() {
 	if err != nil {
 		log.Printf("can not instantiate bot: %v", err)
 	}
+
+	log.Println("Vision Telegram bot configured")
 
 	// start bot
 	fbot.Start()
