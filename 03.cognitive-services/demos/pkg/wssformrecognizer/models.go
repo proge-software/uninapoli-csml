@@ -34,12 +34,14 @@ func (r *FormRecognizerResult) firstField(key string) *string {
 	}
 
 	for _, fields := range r.AnalyzeResult.DocumentResults {
-		for field, value := range *fields.Fields {
-			if field == key {
-				if value != nil && value.Text != nil {
-					return value.Text
+		if fields != nil && fields.Fields != nil {
+			for field, value := range *fields.Fields {
+				if field == key {
+					if value != nil && value.Text != nil {
+						return value.Text
+					}
+					return nil
 				}
-				return nil
 			}
 		}
 	}
