@@ -20,13 +20,9 @@ func NewFromEnv() (*Bot, error) {
 		log.Fatalln(err)
 	}
 
-	bot, err := new(*c)
+	bot, err := New(*c)
 	if err != nil {
 		return nil, err
-	}
-
-	{ // Handler: Text
-		bot.tbot.Handle(tb.OnText, tglog.Wrap(bot.onText))
 	}
 
 	return bot, nil
