@@ -54,7 +54,7 @@ func getConfigurations() (*bot.Configuration, error) {
 		}
 		c.FaceConf = faceConf
 	}
-	{ // Vision API
+	{ // Vision: Computer Vision
 		visionConf, err := wssvision.BuildConfigurationFromEnvs()
 		if err != nil {
 			log.Printf("error retrieving vision service configuration: %v", err)

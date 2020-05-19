@@ -53,7 +53,7 @@ func getConfigurations() (*bot.Configuration, error) {
 		}
 		c.FaceConf = faceConf
 	}
-	{ // Vision API
+	{ // Vision: Computer Vision
 		visionConf, err := wssvision.BuildConfigurationFromEnvs()
 		if err != nil {
 			log.Printf("error retrieving vision service configuration: %v", err)
@@ -67,7 +67,7 @@ func getConfigurations() (*bot.Configuration, error) {
 		}
 		c.FormRecognizerConf = formRecognizerConf
 	}
-	{ // Language Text Analytics
+	{ // Language: Text Analytics
 		textAnalyticsConf, err := wsssentiment.BuildConfigurationFromEnvs()
 		if err != nil {
 			log.Printf("error retrieving text analitycs service configuration: %v", err)
