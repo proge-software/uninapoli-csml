@@ -4,10 +4,10 @@
 
 ## Agenda
 
-1. Presentation :clock230: **14:30**
+1. [Presentation](01.presentation.md) :clock230: **14:30**
    - Who Am I
    - Who Is Proge-Software
-1. Introduction
+1. [Introduction](02.introduction.md)
    - Azure
      - Core Concepts
        - Resource Group
@@ -19,7 +19,7 @@
        - Maturity Model
        - Hypertext as the Engine of Application State (HATEOAS)
    - Azure Cognitive Services
-1. Azure Cognitive Services :clock3: **15:00**
+1. [Azure Cognitive Services](03.azure-cognitive-services.md) :clock3: **15:00**
    - What are Azure Cognitive Services
      - SDKs and API Specification
    - **Vision APIs**
@@ -27,14 +27,14 @@
    - **Language APIs**
    - Search APIs
    - **Decision APIs**
-1. Telegram Bot with Go
+1. [Telegram Bot with Go](04.tgbot-go.md)
    - Go
      - Tour of Go
    - Telebot
    - Azure SDK for Go
      - Other Azure Go Packages
    - Demo
-1. Vision :clock330: **15:30**
+1. [Vision](05.vision.md) :clock330: **15:30**
    - APIs
      - **Face**
        - Face Detection
@@ -53,7 +53,7 @@
      - Ink Recognizer (preview)
      - Video Indexer
    - Demo
-1. Language :clock4: **16:00**
+1. [Language](06.language.md) :clock4: **16:00**
    - APIs
      - **Text Analytics**
        - Sentiment Analysis
@@ -63,7 +63,7 @@
      - Language Understanding (LUIS)
      - **Translator Text**
    - Demo
-1. Decision
+1. [Decision](07.decision.md)
    - APIs
      - Anomaly Detector
        - Demo
@@ -77,4 +77,4 @@
        - When to call Personalizer
        - How to design and implement Personalizer for your client application
    - Demo
-1. Q&A :clock430: **16:30**
+1. [Q&A](08.qa.md) :clock430: **16:30**
