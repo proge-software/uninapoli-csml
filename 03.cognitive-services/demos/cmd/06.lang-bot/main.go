@@ -19,6 +19,8 @@ import (
 const AppEnvKey = "WSSBOT_ENV"
 
 func main() {
+	log.Println("Configuring Language bot")
+
 	envext.LoadDotenvs(AppEnvKey) // load the env vars from .env file
 
 	conf, err := getConfigurations()
@@ -31,6 +33,7 @@ func main() {
 		log.Printf("can not instantiate bot: %v", err)
 	}
 
+	log.Println("Starting Language bot")
 	// start bot
 	fbot.Start()
 }
