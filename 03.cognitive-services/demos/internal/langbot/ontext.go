@@ -19,11 +19,11 @@ func (b *Bot) onText(m *tb.Message) (*tb.Message, error) {
 		message = "Hello, unfortunately I'm not smart enough to understand your sentiments. Please provide me with empathy!"
 	} else {
 		score := taRes.SentimentScore
-		if *score <= 0.3 {
+		if *score <= 0.3 { // Negative
 			message += "I feel you a little bit upset!"
-		} else if *score >= 0.7 {
+		} else if *score >= 0.7 { // Positive
 			message += "What a nice positive message! Thanks!"
-		} else {
+		} else { // Neutral
 			message += "Why so serious?"
 		}
 	}
