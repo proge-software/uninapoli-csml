@@ -18,7 +18,7 @@ func main() {
 
 	fbot, err := bot.NewFromEnv()
 	if err != nil {
-		log.Printf("can not instantiate bot: %v", err)
+		log.Fatalf("can not instantiate bot: %v", err)
 	}
 
 	log.Println("Simple Telegram bot configured")

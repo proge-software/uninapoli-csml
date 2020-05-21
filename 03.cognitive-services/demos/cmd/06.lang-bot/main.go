@@ -30,7 +30,7 @@ func main() {
 
 	fbot, err := bot.New(*conf)
 	if err != nil {
-		log.Printf("can not instantiate bot: %v", err)
+		log.Fatalf("can not instantiate bot: %v", err)
 	}
 
 	log.Println("Starting Language bot")
