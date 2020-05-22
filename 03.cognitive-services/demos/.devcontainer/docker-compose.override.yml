@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  devenv:
+    user: vscode
+
+    volumes:
+      # Preserve VSCode Extensions
+      - vscode_extension:/home/vscode/.vscode-server/extensions
+      - vscode_insider_extension:/home/vscode/.vscode-server-insiders/extensions
+
+volumes:
+  vscode_extension:
+    external:
+      name: "vscode_extension_go"
+  vscode_insider_extension:
+    external:
+      name: "vscode_insiders_extension_go"
